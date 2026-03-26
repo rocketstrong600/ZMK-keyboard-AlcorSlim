@@ -1,0 +1,7 @@
+# No whitespace after the comma or in your part name!
+config SHIELD_ALCOR_SLIM_LEFT
+    def_bool $(shields_list_contains,alcor_slim_left)
+
+# No whitespace after the comma or in your part name!
+config SHIELD_ALCOR_SLIM_RIGHT
+    def_bool $(shields_list_contains,alcor_slim_right)
